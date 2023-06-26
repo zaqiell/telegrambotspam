@@ -3,11 +3,8 @@
 export LANG=C.UTF-8
 
 #tirnaklari silip giriniz#
-id="token"
-token="token"
+token=
 #****************************#
-
-tam=$id:$token
 
 echo 1\. fotograf gondermek istiyorum
 echo 2\. text && read allah
@@ -20,7 +17,7 @@ then
 	d=1
 	for (( d ; d<=c  ; d++ ))
 	do
-		curl -X POST -H "Content-Type:multipart/form-data" -F chat_id="$a" -F photo=@$f "https://api.telegram.org/bot$tam/sendPhoto"
+		curl -X POST -H "Content-Type:multipart/form-data" -F chat_id="$a" -F photo=@$f "https://api.telegram.org/bot$token/sendPhoto"
 	done
 fi
 
@@ -33,6 +30,6 @@ then
 	i=0
 	for (( i ; i<c ; i++ ))
 	do
-        	curl --data chat_id="$a" --data-urlencode "text=$b" "https://api.telegram.org/bot$tam/sendMessage?parse_mode=HTML"
+        	curl --data chat_id="$a" --data-urlencode "text=$b" "https://api.telegram.org/bot$token/sendMessage?parse_mode=HTML"
 	done
 fi
