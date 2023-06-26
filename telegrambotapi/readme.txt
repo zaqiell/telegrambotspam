@@ -9,11 +9,9 @@ olduğu chatleri görebilirsiniz. mesaj erişimini sadece botun admin
 olduğu chatlerde görebilirsiniz.
 
 SCRİPTİN KULLANIMI
-1. botun olduğu bir kanal/grup oluşturup botunuzun id'sini 
-https://api.telegram.org/bot<TOKEN>/getUpdates sitesinden öğrenin.
-2. botun tokenini .sh dosyasını editleyip gösterdiğim yere yapıştırın.
-3. bash telegrambot.sh komutu ile çalıştırın.
-4. spam yapmak istediğiniz chatin id'sini girin. (yukarıdaki sitede chat_id: diye gözükmeli.)
+1. botun tokenini .sh dosyasını editleyip gösterdiğim yere yapıştırın.
+2. bash telegrambot.sh komutu ile çalıştırın.
+3. spam yapmak istediğiniz chatin id'sini girin. (yukarıdaki sitede chat_id: diye gözükmeli.)
 
 # resmin olduğu dizin böyle gösterilmeli
 # /home/"user"/"klasör"/resim.jpg 
