@@ -3,7 +3,7 @@
 export LANG=C.UTF-8
 
 #tirnaklari silip giriniz#
-token=
+token=""
 #****************************#
 
 echo 1\. fotograf gondermek istiyorum
